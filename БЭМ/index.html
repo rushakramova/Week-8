@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Макет БЭМ</title>
+    <link rel="stylesheet" href="./assets/style/normalize.css">
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__logo" src="./assets/images/logo.svg" alt="logo">
+        <button class="header__button">
+            <a class="header__button--link" href="..." target="_blank">КОРЗИНА</a>
+            <img class="header__button--img" src="./assets/images/ico.png" alt="иконка корзины">
+        </button>
+    </header>
+    <main class="main">
+        <h1 class="main-text">ВОЗМОЖНОСТИ</h1>
+        <div class="main-container">
+            <div class="main-container__cards">
+                <img class="main-container__img" src="./assets/images/Illustration_1.png"
+                    alt="ученый с пробиркой в руке">
+                <h2 class="main-container__title">БЕЗ ПРОВОДОВ</h2>
+                <p class="main-container__text">Шлем работает без проводов. Не нужен ни компьютер, ни внешнее питание,
+                    ни большое помещение, чтобы расставить трекеры.</p>
+            </div>
+            <div class="main-container__cards">
+                <img class="main-container__img" src="./assets/images/Illustration_2.png" alt="робот">
+                <h2 class="main-container__title">БЕЗ КОМПЬЮТЕРА</h2>
+                <p class="main-container__text">Современным VR-шлемам нужен мощный компьютер, чтобы запускать игры.
+                    Наш шлем запускает игры из облака, поэтому просто наслаждайтесь.</p>
+            </div>
+            <div class="main-container__cards">
+                <img class="main-container__img" src="./assets/images/Illustration_3.png"
+                    alt="девушка работает за ноутбуком">
+                <h2 class="main-container__title">ДО 10 ЧАСОВ РАБОТЫ</h2>
+                <p class="main-container__text">Несмотря на компактность и производительность, шлем может работать до 10
+                    часов — даже, если вы играете в самые ресурсоемкие игры.</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container__cards">
+                <h2 class="container__title">СОТНИ ИГР</h2>
+                <p class="container__text">Уже сейчас вам доступно более сотни игр: от высокобюджетных ААА-тайтлов
+                    до маленьких независимых проектов. Скоро их станет еще больше.</p>
+            </div>
+            <div class="container__cards">
+                <h2 class="container__title">ПОЧТИ ДАРОМ</h2>
+                <p class="container__text">По сравнению с другими VR-шлемами наш стоит гораздо меньше. И вы
+                    существенно экономите на мощном компьютере.</p>
+            </div>
+            <form class="container__form" action="...">
+                <div class="container__subscribe">
+                    <h2 class="container__news">НОВОСТИ</h2>
+                    <input class="container__subscribe--mail" type="text" placeholder="Эл.почта" name="email" required>
+                    <button type="submit" class="container__button">
+                        <a class="container__subscribe--link" href="..." target="_blank">ПОДПИСАТЬСЯ</a></button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <nav class="footer_navbar">
+            <ul class="footer_menu">
+                <li class="footer_list">
+                    <a class="footer_list--link" href="..." target="_blank">Возможности</a>
+                </li>
+                <li>
+                    <a class="footer_list--link" href="..." target="_blank">Где купить</a>
+                </li>
+                <li>
+                    <a class="footer_list--link" href="..." target="_blank">Доставка</a>
+                </li>
+                <li>
+                    <a class="footer_list--link" href="..." target="_blank">Помощь</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
